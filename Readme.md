@@ -1,5 +1,29 @@
-https://github.com/mozilla/geckodriver/releases
+# Template BDD
 
-tar -xvzf geckodriver-v0.19.1-linux64.tar.gz
+## Install ChromeDriver
+```
+wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
 
-sudo cp geckodriver /usr/bin/
+unzip chromedriver_linux64.zip
+
+sudo mv chromedriver /usr/bin/chromedriver
+sudo chown root:root /usr/bin/chromedriver
+sudo chmod +x /usr/bin/chromedriver
+```
+
+## Install RVM
+http://rvm.io/
+
+## Install Ruby Version
+```
+$ rvm install 2.4.1
+```
+## Instalando as Gems
+```
+$ bundle install
+```
+
+## Executando
+```
+$ cucumber
+```
