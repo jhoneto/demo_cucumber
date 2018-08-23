@@ -1,6 +1,6 @@
 # Template BDD
 
-## Install ChromeDriver
+## Instalando ChromeDriver
 ```
 wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
 
@@ -11,10 +11,10 @@ sudo chown root:root /usr/bin/chromedriver
 sudo chmod +x /usr/bin/chromedriver
 ```
 
-## Install RVM
+## Instalando RVM
 http://rvm.io/
 
-## Install Ruby Version
+## Instalando versão do Ruby
 ```
 $ rvm install 2.4.1
 ```
